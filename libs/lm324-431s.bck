@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM324-431S
+D 2W/8R Dual Audio Power Amplifier, Supply Voltage 6-24V, DIP14
+K Dual Audio Amplifier 2W 24V
+F ns/lm1877.pdf
+$ENDCMP
+#
+#End Doc Library
