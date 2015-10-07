@@ -1,4 +1,4 @@
 
 # kicad libs
 
-this is my home made kicad libraries for my own projects 
+this is home made kicad libraries for my own projects 
