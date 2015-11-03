@@ -1,9 +1,63 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADXL345
+D accelerometer
+K adxl345 imu sensor
+$ENDCMP
+#
+$CMP CN
+D Connnector
+K Connector 
+$ENDCMP
+#
+$CMP L78S05CV
+D 5V Controller
+K Regler 5V Controller  
+$ENDCMP
+#
+$CMP L78S10CV
+D 10V Controller
+K 10V Controller Spannungsregler
+$ENDCMP
+#
+$CMP LF33
+D 3.3V Controller
+K 3.3V Controller Spannungsregler
+$ENDCMP
+#
+$CMP LF50
+D 5V Controller
+K 5V Controller Spannungsregler
+$ENDCMP
+#
 $CMP LM324-431S
-D 2W/8R Dual Audio Power Amplifier, Supply Voltage 6-24V, DIP14
-K Dual Audio Amplifier 2W 24V
-F ns/lm1877.pdf
+D 4 rail to rail op-amp
+K 4 opv op-amp amplifier 
+$ENDCMP
+#
+$CMP STM32F407VGT6
+D STM32F407VGT6 uController
+K STM32F407 uController
+$ENDCMP
+#
+$CMP UDN2981
+D 8-Channel Source Drivers
+K Source Driver 8 Darlington Array
+$ENDCMP
+#
+$CMP VNH5019
+D Motor Driver 
+K Motor Driver VNH5019
+$ENDCMP
+#
+$CMP esp8266-06
+D wlan shield
+K wlan shield esp 
+$ENDCMP
+#
+$CMP imu3000
+D Gyroscope
+K imu Gyroscope
 $ENDCMP
 #
 #End Doc Library
