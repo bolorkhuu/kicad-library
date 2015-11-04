@@ -1,4 +1,4 @@
-(module XBee:XBee-pro (layer F.Cu) (tedit 4C28F3E6)
+(module XBee-pro (layer F.Cu) (tedit 4C28F3E6)
   (fp_text reference XBee-pro (at 0.635 6.35) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
