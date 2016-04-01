@@ -1,4 +1,4 @@
-(module XBee-pro (layer F.Cu) (tedit 56FC0516)
+(module XBee_mod (layer F.Cu) (tedit 56FC0516)
   (fp_text reference U10 (at 0.16256 -0.45974) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )

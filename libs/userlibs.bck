@@ -10,6 +10,11 @@ D Connnector
 K Connector 
 $ENDCMP
 #
+$CMP FT232RL
+D USB UART Converter 
+K FTDI FT232RL
+$ENDCMP
+#
 $CMP IPX
 D IPX
 $ENDCMP
@@ -34,6 +39,11 @@ D 5V Controller
 K 5V Controller Spannungsregler
 $ENDCMP
 #
+$CMP LM2678-5.0
+D Switching Regulator Schaltregler
+K Switching Regulator Schaltregler 
+$ENDCMP
+#
 $CMP LM324-431S
 D 4 rail to rail op-amp
 K 4 opv op-amp amplifier 
@@ -42,6 +52,11 @@ $ENDCMP
 $CMP PCA9306
 D Level switcher Pegelumsetzer
 K Level switcher Pegelumsetzer
+$ENDCMP
+#
+$CMP Q_NMOS_VNH
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP STM32F407VGT6
@@ -57,6 +72,21 @@ $ENDCMP
 $CMP UDN2981
 D 8-Channel Source Drivers
 K Source Driver 8 Darlington Array
+$ENDCMP
+#
+$CMP ULN2803A
+D 8-Channel Source Drivers
+K Source Driver 8 Darlington Array
+$ENDCMP
+#
+$CMP USB_OTG
+D micro/mini connector
+K USB USB_OTG USB_mini USB_micro
+$ENDCMP
+#
+$CMP USB_OTG_MOD
+D micro/mini connector
+K USB USB_OTG USB_mini USB_micro
 $ENDCMP
 #
 $CMP VNH5019
