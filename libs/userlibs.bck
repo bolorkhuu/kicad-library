@@ -15,6 +15,11 @@ D USB UART Converter
 K FTDI FT232RL
 $ENDCMP
 #
+$CMP IMU3000Combo
+D IMU3000 Combo Board
+K IMU3000 Combo
+$ENDCMP
+#
 $CMP IPX
 D IPX
 $ENDCMP
@@ -22,11 +27,6 @@ $ENDCMP
 $CMP L78S05CV
 D 5V Controller
 K Regler 5V Controller  
-$ENDCMP
-#
-$CMP L78S10CV
-D 10V Controller
-K 10V Controller Spannungsregler
 $ENDCMP
 #
 $CMP LF33
@@ -49,6 +49,11 @@ D 4 rail to rail op-amp
 K 4 opv op-amp amplifier 
 $ENDCMP
 #
+$CMP MPU6050
+D MPU6050 IMU Gyroscope Accelerometer
+K MPU6050 IMU Gyroscope Accelerometer
+$ENDCMP
+#
 $CMP PCA9306
 D Level switcher Pegelumsetzer
 K Level switcher Pegelumsetzer
@@ -57,6 +62,11 @@ $ENDCMP
 $CMP Q_NMOS_VNH
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP STM32F103
+D STM32F103 uController
+K STM32F1
 $ENDCMP
 #
 $CMP STM32F407VGT6
@@ -92,6 +102,11 @@ $ENDCMP
 $CMP VNH5019
 D Motor Driver 
 K Motor Driver VNH5019
+$ENDCMP
+#
+$CMP VNH5019MDC
+D VNH5019 Motor Driver Carrier
+K VNH5019
 $ENDCMP
 #
 $CMP esp8266-06
